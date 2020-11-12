@@ -152,7 +152,7 @@ td {
 .form_component {
     border-style: solid;
     float: left;
-    width: 80%;
+    width: 90%;
     min-width: 167px;
     min-height: 20px;
     margin: auto;
@@ -166,4 +166,20 @@ td {
 
 .criteria {
     font-size: 13px;
+}
+
+.submit {
+        text-align: right;
+        padding-right: 2.5%;
+}
+
+.submit input   {
+    background-color: #4d90fe;
+    border-style: solid;
+    border-color: #3079ed;  
+    border-radius: 2px;
+    line-height: 27px;
+    min-width: 52px;
+    color: white;
+    font-weight: bold;
 }
